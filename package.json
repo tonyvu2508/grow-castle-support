@@ -1,0 +1,28 @@
+{
+  "name": "grow-castle-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyvu2508/grow-castle-auto-support.git"
+  },
+  "author": "Tony Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyvu2508/grow-castle-auto-support/issues"
+  },
+  "homepage": "https://github.com/tonyvu2508/grow-castle-auto-support#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
